@@ -7,6 +7,9 @@ from sqlmodel import Field, SQLModel, create_engine, Session, select, col, delet
 from typing import List, Optional
 from datetime import timedelta
 from pydantic import BaseModel
+from dotenv import load_dotenv
+
+load_dotenv()
 
 from database import create_db_and_tables, get_session
 from models import User, Resume, Job, UserJob, JobStatus

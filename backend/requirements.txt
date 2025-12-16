@@ -3,6 +3,7 @@ uvicorn[standard]
 sqlmodel
 python-jose[cryptography]
 passlib[bcrypt]
+argon2-cffi
 python-multipart
 pandas
 pypdf
